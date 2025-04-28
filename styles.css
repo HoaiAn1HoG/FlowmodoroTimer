@@ -1,0 +1,71 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:skyblue;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+}
+
+#subTitle {
+    color:rgba(245, 245, 245, 0.779);
+    letter-spacing: 0.2rem;
+}
+
+button {
+    color: white;
+    background-color: rgba(173, 216, 230, 0.161);
+    padding: 0.5rem 1rem;
+    border-color: transparent;
+    border-width: 1px;
+    border-style: groove;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgba(215, 246, 255, 0.371);
+    transform: scale(1.05);
+    cursor: pointer;
+    color: white;
+  }
+
+.box {
+    display: inline-block;
+    background-color: rgba(211, 230, 248, 0.11);
+    padding: 4rem;
+    padding-bottom: 5rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box.active {
+    background-color: rgba(73, 181, 248, 0.218);
+}
+  
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 1rem;
+}
+
+#timeDisplay {
+    font-size: 5rem;
+    color: white;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.hidden{
+    display: none;
+}
